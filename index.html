@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название</title>
+    <meta name="theme-color" content="#d4c999">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./main.js" defer></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="header_wrapper wrapper">
+            <div class="header_content">
+                <address>
+                    <a class="header_link" href="tel:89023339701">
+                        <img alt="Звонок" src="icons/utility/phone-call-loop.svg">
+                        <span>8 902 333-97-01</span>
+                    </a>
+                </address>
+                <ul class="header_links">
+                    <li class="header_link_wrapper">
+                        <a class="header_link" href="/#about"> Обо мне </a>
+                    </li>
+                    <li class="header_link_wrapper">
+                        <a class="header_link" href="/#works"> Работы </a>
+                    </li>
+                    <li class="header_link_wrapper">
+                        <a class="header_link" href="/#price"> Прайс лист </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mobile_menu">
+                <div class="mobile_menu_content">
+                    <ul class="mobile_menu_links">
+                        <li class="mobile_menu_link">
+                            <a href="/#about"> Обо мне </a>
+                        </li>
+                        <li class="mobile_menu_link">
+                            <a href="/#works"> Работы </a>
+                        </li>
+                        <li class="mobile_menu_link">
+                            <a href="/#price"> Прайс лист </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="home">
+        <div class="home_wrapper wrapper">
+            <div class="home_about_wrapper">
+                <div class="home_greeting">
+                    <span>Здравствуйте!</span>
+                    <span>Меня зовут Имя Фамилия</span>
+                </div>
+                <div class="home_content">
+                    <h1>Обо мне:</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis atque doloribus sunt voluptate molestiae inventore aspernatur, facere esse dignissimos in, vero enim maiores delectus quasi, quo unde consectetur perferendis obcaecati.</p>
+                </div>
+            </div>
+            <div class="home_image_wrapper">
+                <img src="./media/zagl.jpg" alt="img">
+            </div>
+            
+            <div class="home_arrow_down_wrapper">
+                <a href="#homestaging"><img alt="" src="./icons/utility/double-down.svg" class="home_arrow_down"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="homestaging" class="homestaging">
+        <div class="homestaging_wrapper">
+            <div class="homestaging_content">
+                <h1>Что такое хоумстейджинг?</h1>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum voluptatem soluta voluptatum! Repellendus nemo dolores deleniti, dolor iure exercitationem illum sint tempora vel voluptatem ducimus libero at quas eligendi.</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <div class="works_wrapper wrapper">
+            <div class="works_title"><h2>Примеры работ</h2></div>
+            <div class="works_examples">
+                <div class="work_example">
+                    <div class="img_comparison_slider_wrapper">
+                        <img-comparison-slider value="50" hover="false">
+                            <img slot="first" src="./media/zagl.jpg" />
+                            <img slot="second" src="./media/zagl.jpg" />
+                        </img-comparison-slider>
+                    </div>
+                    <div class="work_description">
+                        <span>Хоумстейджинг обошелся в 0000 рублей</span>
+                    </div>
+                </div>
+
+                <div class="work_example">
+                    <div class="img_comparison_slider_wrapper">
+                        <img-comparison-slider value="25" hover="false">
+                            <img slot="first" src="./media/zagl.jpg" />
+                            <img slot="second" src="./media/zagl.jpg" />
+                        </img-comparison-slider>
+                    </div>
+                    <div class="work_description">
+                        <span>Хоумстейджинг обошелся в 0000 рублей</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
